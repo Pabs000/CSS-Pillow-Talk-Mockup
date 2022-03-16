@@ -90,6 +90,9 @@ header h1 {
 ### Last Child of the div inside header
 
 ```CSS
+header h1 {
+  text-align: left;
+}
 header div:last-child {
   display: flex;
   align-items: center;
@@ -108,7 +111,13 @@ header div:last-child {
 /*********************************
 * Container
 *********************************/
-
+header h1 {
+  text-align: left;
+}
+header div:last-child {
+  display: flex;
+  align-items: center;
+}
 .container {
   display: flex;
   width: 90%;
@@ -127,7 +136,19 @@ header div:last-child {
 
 
 ```CSS
-
+header h1 {
+  text-align: left;
+}
+header div:last-child {
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
 aside {
   flex-basis: 15%;
   min-width: 15%;
